@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Twitter Api Automation testing " parallel="false">
+
+    
+
+    <test name = "Twitter Home">
+        <classes>
+
+           <class name="apiTest.TweetsTest"></class>
+        </classes>
+    </test>
+
+</suite>
