@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Twitter Api Automation testing " duration-ms="4574" started-at="2019-04-17T22:26:03Z" finished-at="2019-04-17T22:26:07Z">
+  <suite name="Twitter Api Automation testing " duration-ms="6334" started-at="2019-04-17T23:07:48Z" finished-at="2019-04-17T23:07:54Z">
     <groups>
     </groups>
-    <test name="Twitter Home" duration-ms="4574" started-at="2019-04-17T22:26:03Z" finished-at="2019-04-17T22:26:07Z">
+    <test name="Twitter Home" duration-ms="6334" started-at="2019-04-17T23:07:48Z" finished-at="2019-04-17T23:07:54Z">
       <class name="apiTest.TweetsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="setUp" is-config="true" duration-ms="18" started-at="2019-04-17T22:26:03Z" finished-at="2019-04-17T22:26:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="setUp" is-config="true" duration-ms="10" started-at="2019-04-17T23:07:48Z" finished-at="2019-04-17T23:07:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="cantNotTweetWithSameTweetTwiceInRow()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="cantNotTweetWithSameTweetTwiceInRow" duration-ms="2753" started-at="2019-04-17T22:26:03Z" finished-at="2019-04-17T22:26:05Z">
+        <test-method status="PASS" signature="cantNotTweetWithSameTweetTwiceInRow()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="cantNotTweetWithSameTweetTwiceInRow" duration-ms="3022" started-at="2019-04-17T23:07:48Z" finished-at="2019-04-17T23:07:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cantNotTweetWithSameTweetTwiceInRow -->
-        <test-method status="PASS" signature="testCreateTweet()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="testCreateTweet" duration-ms="745" started-at="2019-04-17T22:26:05Z" finished-at="2019-04-17T22:26:06Z">
+        <test-method status="PASS" signature="testCreateTweet()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="testCreateTweet" duration-ms="1082" started-at="2019-04-17T23:07:51Z" finished-at="2019-04-17T23:07:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateTweet -->
-        <test-method status="PASS" signature="testGetUserTimeLine()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="testGetUserTimeLine" duration-ms="514" started-at="2019-04-17T22:26:06Z" finished-at="2019-04-17T22:26:07Z">
+        <test-method status="PASS" signature="testGetUserTimeLine()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="testGetUserTimeLine" duration-ms="1375" started-at="2019-04-17T23:07:52Z" finished-at="2019-04-17T23:07:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserTimeLine -->
-        <test-method status="PASS" signature="testUserCanDeleteTweet()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="testUserCanDeleteTweet" duration-ms="531" started-at="2019-04-17T22:26:07Z" depends-on-methods="apiTest.TweetsTest.testCreateTweet" finished-at="2019-04-17T22:26:07Z">
+        <test-method status="PASS" signature="testUserCanDeleteTweet()[pri:0, instance:apiTest.TweetsTest@13fee20c]" name="testUserCanDeleteTweet" duration-ms="832" started-at="2019-04-17T23:07:54Z" depends-on-methods="apiTest.TweetsTest.testCreateTweet" finished-at="2019-04-17T23:07:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserCanDeleteTweet -->
